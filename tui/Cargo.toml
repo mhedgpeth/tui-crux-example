@@ -1,0 +1,16 @@
+[package]
+name = "tui"
+version = "0.1.0"
+authors.workspace = true
+edition.workspace = true
+repository.workspace = true
+license.workspace = true
+keywords.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+smol = "2.0.2"
+iocraft = "0.6.2"
+crux_core.workspace = true
+shared = { path = "../shared", features = ["typegen"] }
+

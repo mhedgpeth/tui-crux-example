@@ -1,0 +1,15 @@
+[workspace]
+members = ["shared", "tui"]
+resolver = "1"
+
+[workspace.package]
+authors = ["Michael Hedgpeth"]
+edition = "2021"
+repository = "https://github.com/mhedgpeth/tui-crux-example/"
+license = "Apache-2.0"
+keywords = ["crux", "crux_core", "cross-platform-ui", "tui", "example"]
+rust-version = "1.80.0"
+
+[workspace.dependencies]
+crux_core = "0.11.1"
+serde = "1.0.203"
